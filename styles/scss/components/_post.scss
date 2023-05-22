@@ -1,0 +1,85 @@
+.top-header {
+  height: 48px;
+}
+.follow-btn {
+  width: 58px;
+  height: 24px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  font-size: 12px;
+  color: #fff;
+  background: var(--green-color);
+  transition: all ease-in-out 0.3s;
+  &:hover {
+    color: var(--green-color);
+    background: transparent;
+    border-color: var(--green-color);
+  }
+}
+
+.under-line-li {
+  &::marker {
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+.has-tag {
+  box-sizing: border-box;
+  padding: 5px 12px;
+  background: #f7f8fa;
+  border: 0.5px solid #ced3de;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border-radius: 999px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #5a6b87;
+  width: max-content;
+}
+
+.product-slider {
+  .carousel-control-prev {
+    display: none;
+  }
+  .carousel-control-next {
+    display: none;
+  }
+}
+.chat-image-select {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  color: #8d8f91 !important;
+  z-index: 9;
+  font-size: 25px;
+  input {
+    cursor: pointer !important;
+    width: 50px !important;
+    top: 8px;
+    opacity: 0;
+    z-index: 10;
+  }
+}
+
+.post-commat-box {
+  min-height: 100px;
+  max-height: 350px;
+  padding-bottom: 55px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.comment-box {
+  .enter-comment {
+    width: 100%;
+    input {
+      width: 100%;
+      height: 40px;
+      border: 0px;
+      outline: unset;
+    }
+  }
+}

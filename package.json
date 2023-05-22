@@ -1,0 +1,33 @@
+{
+  "name": "interview-task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.2.1",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.7.2",
+    "jquery": "^3.6.1",
+    "js-cookie": "^3.0.1",
+    "moment": "^2.29.4",
+    "next": "13.4.3",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "18.2.0",
+    "react-toastify": "^9.1.1",
+    "sass": "^1.45.1"
+  },
+  "devDependencies": {
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.3"
+  }
+}
